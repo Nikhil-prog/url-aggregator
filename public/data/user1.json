@@ -1,0 +1,17 @@
+{
+  "name": "Nikhil",
+  "bio": "Undergrad at IIITD",
+  "avatar": "https://github.com/Nikhil-prog.png",
+  "links": [
+    {
+      "name": "Github",
+      "url": "https://github.com/Nikhil-prog",
+      "favicon": "youtube"
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/nikhil-8640461ab/",
+      "favicon": "LinkedIn"
+    }
+  ]
+}
