@@ -3,31 +3,21 @@ import "primereact/resources/primereact.min.css";                  //core css
 import "primeicons/primeicons.css";                                //icons
 import "primeflex/primeflex.css";
 
-import Profile from "./components/Profile";
-import { useEffect, useState } from "react";
-import Links from "./components/Links";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Viewpage from "./components/Viewpage";
+import Home from "./components/Home";
+import Dashboard from "./components/Dashboard";
+
 
 function App() {
-
-  const [profile, setProfile] = useState({
-    "name": "unknown",
-    "bio": "-",
-    "avatar": "",
-    "links": []
-  });
-
-  useEffect(() => {
-    fetch("/data/user1.json")
-      .then((response) => response.json())
-      .then((data) => setProfile(data));
-  }, []);
-
   return (
-
-    <div className="flex justify-content-center flex-column align-items-center pt-4" style={{ backgroundColor: 'red' }}>
-      <Profile userProfile={profile} total_links={profile.links.length} />
-      <Links links={profile.links} />
-    </div >
+    <Router>
+      <Routes>
+        <Route path='/:username' element={<Viewpage />} />
+        <Route path='/:username/:dashboard' element={<Dashboard />} />
+        <Route path='/' element={<Home />} />
+      </Routes>
+    </Router >
   );
 }
 

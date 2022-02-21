@@ -1,0 +1,27 @@
+{
+  "name": "bot",
+  "bio": "Hi! i am just a bot",
+  "avatar": "/images/bot.jpg",
+  "links": [
+    {
+      "name": "Google",
+      "url": "https://www.google.com/",
+      "favicon": "google"
+    },
+    {
+      "name": "Youtube",
+      "url": "https://www.youtube.com/",
+      "favicon": "youtube"
+    },
+    {
+      "name": "Github",
+      "url": "https://github.com/",
+      "favicon": "github"
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/",
+      "favicon": "linkedin"
+    }
+  ]
+}

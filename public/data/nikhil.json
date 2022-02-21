@@ -1,17 +1,17 @@
 {
   "name": "Nikhil",
-  "bio": "Undergrad at IIITD",
+  "bio": "I am pursuing my B.Tech in Computer Science with specialisation in Applied Mathematics ",
   "avatar": "https://github.com/Nikhil-prog.png",
   "links": [
     {
       "name": "Github",
       "url": "https://github.com/Nikhil-prog",
-      "favicon": "youtube"
+      "favicon": "github"
     },
     {
       "name": "LinkedIn",
       "url": "https://www.linkedin.com/in/nikhil-8640461ab/",
-      "favicon": "LinkedIn"
+      "favicon": "linkedin"
     }
   ]
 }
