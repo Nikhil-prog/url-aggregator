@@ -5,7 +5,7 @@ import { Badge } from 'primereact/badge';
 
 function Profile({ userProfile, links_count }) {
     const { name, bio, avatar } = userProfile;
-    const currentPath = `http://localhost:3000/${name}`;
+    const currentPath = `https://url-aggregat0r.herokuapp.com/${name}`;
     return (
         <div className="flex justify-content-center">
             <div className="pt-8 align-items-center" style={{ width: "55%" }}>
