@@ -11,7 +11,7 @@ import './FormDemo.css';
 import { useNavigate } from 'react-router-dom';
 
 export const ReactHookFormDemo = () => {
-    const existingUser = ["Nikhil", "bot"];
+    const existingUser = ["Nikhil", "Bot"];
     const navigate = useNavigate();
     const [showMessage, setShowMessage] = useState(false);
     const defaultValues = {
